@@ -4026,7 +4026,7 @@ function ExecAddDamage(damage_dir, attack_dir, damage_level, is_guard, is_damage
         return
     elseif env(GetBehaviorID, 2) == TRUE then
         return
-    elseif IsNodeActive("Attack_SM") == TRUE then -- aimpunch fix
+    elseif IsNodeActive("Attack_SM") == TRUE then 
         return
     elseif is_guard == TRUE then
         SetVariable("AddDamageGuardBlend", 1)
@@ -9537,12 +9537,6 @@ function DrawStanceRightStart_Upper_onUpdate()
     local r2 = "W_DrawStanceRightAttackHeavy"
     local b1 = "W_DrawStanceRightAttackLight"
     local b2 = "W_DrawStanceRightAttackHeavy"
-    if c_SwordArtsID == 239 then -- 1.09 change
-        r1 = "W_AttackRightLight2"
-        r2 = "W_AttackRightHeavy1Start"
-        b1 = "W_AttackBothLight2"
-        b2 = "W_AttackBothHeavy1Start"
-    end
     if TRUE == env(GetSpEffectID, 100530) then
         r1 = "W_SwordArtsStanceAttackLightStart"
         r2 = "W_SwordArtsStanceAttackHeavyStart"
