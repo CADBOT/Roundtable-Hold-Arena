@@ -3,7 +3,7 @@
 # If set to true the debug console will appear while the game is running
 debug = false
 
-external_dlls = [ "./../../SeamlessCoop/elden_ring_seamless_coop.dll", "RoundtableHoldArena.dll"]
+external_dlls = [ "./../_PLACE_SEAMLESS_COOP_151_HERE_/SeamlessCoop/elden_ring_seamless_coop.dll", "RoundtableHoldArena.dll"]
 
 # Mod loader configuration
 [extension.mod_loader]
@@ -37,3 +37,4 @@ mods = [
 # is probably not for you.
 [extension.scylla_hide]
 enabled = false
+

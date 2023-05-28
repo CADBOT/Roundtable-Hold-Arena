@@ -1,1 +1,1 @@
-..\SeamlessCoop\seamlesscoopsettings.ini
+.\_PLACE_SEAMLESS_COOP_151_HERE_\SeamlessCoop\seamlesscoopsettings.ini
